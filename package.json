@@ -1,6 +1,6 @@
 {
   "name": "@wohal/octokit",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "description": "The all-batteries-included GitHub SDK for Browsers, Node.js, and Deno",
   "keywords": [
