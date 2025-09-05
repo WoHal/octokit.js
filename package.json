@@ -1,5 +1,5 @@
 {
-  "name": "octokit_umd",
+  "name": "@wohal/octokit",
   "version": "0.0.2",
   "type": "module",
   "description": "The all-batteries-included GitHub SDK for Browsers, Node.js, and Deno",
@@ -10,6 +10,7 @@
     "octokit"
   ],
   "author": "Gregor Martynus (https://github.com/gr2m)",
+  "contributors": ["WoHal <https://github.com/wohal>"],
   "repository": "github:wohal/octokit.js",
   "license": "MIT",
   "scripts": {
