@@ -86,6 +86,7 @@
   "engines": {
     "node": ">= 20"
   },
+  "private": true,
   "publishConfig": {
     "provenance": true
   }
