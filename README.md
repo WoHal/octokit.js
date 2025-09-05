@@ -57,6 +57,7 @@ The `octokit` package integrates the three main Octokit libraries
 <tr><th>
 CDN
 </th><td width=100%>
+
 ```html
 <script src="https://unpkg.com/@wohal/octokit@1.2.0/dist-web/index.js"></script>
 ```
@@ -65,6 +66,7 @@ CDN
 const { Octokit } = window.octokit;
 const octokit = new Octokit();
 ```
+
 </td></tr>
 <tr><th>
 Browsers
