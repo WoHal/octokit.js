@@ -1,5 +1,5 @@
 {
-  "name": "@wohal/octokit",
+  "name": "octokit_umd",
   "version": "0.0.1",
   "type": "module",
   "description": "The all-batteries-included GitHub SDK for Browsers, Node.js, and Deno",
@@ -86,7 +86,6 @@
   "engines": {
     "node": ">= 20"
   },
-  "private": true,
   "publishConfig": {
     "provenance": true
   }
