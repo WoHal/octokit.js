@@ -13,10 +13,7 @@
   "contributors": [
     "WoHal <https://github.com/wohal>"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wohal/octokit.js"
-  },
+  "repository": "github:WoHal/octokit.js",
   "license": "MIT",
   "scripts": {
     "build": "node scripts/build.mjs && tsc -p tsconfig.json",
