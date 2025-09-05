@@ -2,7 +2,7 @@
 import esbuild from "esbuild";
 import { copyFile, readFile, writeFile, rm } from "node:fs/promises";
 import { glob } from "glob";
-import {umdWrapper} from "esbuild-plugin-umd-wrapper";
+import { umdWrapper } from "esbuild-plugin-umd-wrapper";
 
 /**
  * @type {esbuild.BuildOptions}
@@ -51,18 +51,17 @@ async function main() {
 
   // Build for Web
   await esbuild.build({
-    entryPoints: ['pkg/dist-src/index.js'],
+    entryPoints: ["pkg/dist-src/index.js"],
     outdir: "pkg/dist-web",
     ...sharedOptions,
     packages: "bundle", // 覆盖sharedOptions中的packages配置，将依赖项打包到输出文件中
     bundle: true,
-    platform: 'browser',
+    platform: "browser",
     minify: true,
-    target: ['es6'],
-    format: 'umd',
-    plugins: [
-      umdWrapper({ libraryName: "octokit" })
-    ]
+    target: ["es6"],
+    // @ts-ignore
+    format: "umd",
+    plugins: [umdWrapper({ libraryName: "octokit" })],
   });
 
   // Copy the README, LICENSE to the pkg folder
