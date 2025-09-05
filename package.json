@@ -1,6 +1,6 @@
 {
   "name": "octokit_umd",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "description": "The all-batteries-included GitHub SDK for Browsers, Node.js, and Deno",
   "keywords": [
