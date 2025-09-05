@@ -57,6 +57,7 @@ async function main() {
     packages: "bundle", // 覆盖sharedOptions中的packages配置，将依赖项打包到输出文件中
     bundle: true,
     platform: 'browser',
+    minify: true,
     target: ['es6'],
     format: 'umd',
     plugins: [
