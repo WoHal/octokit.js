@@ -1,6 +1,6 @@
 {
   "name": "@wohal/octokit",
-  "version": "0.0.0-development",
+  "version": "0.0.1",
   "type": "module",
   "description": "The all-batteries-included GitHub SDK for Browsers, Node.js, and Deno",
   "keywords": [
@@ -10,10 +10,9 @@
     "octokit"
   ],
   "author": "Gregor Martynus (https://github.com/gr2m)",
-  "repository": "github:octokit/octokit.js",
+  "repository": "github:wohal/octokit.js",
   "license": "MIT",
   "scripts": {
-    "build:web": "vite build",
     "build": "node scripts/build.mjs && tsc -p tsconfig.json",
     "lint": "prettier --check \"{src,test,scripts}/**/*.{js,json,ts}\" \"*.{md,json}\"",
     "lint:fix": "prettier --write \"{src,test,scripts}/**/*.{js,json,ts,mjs}\" \"*.{md,json}\"",
