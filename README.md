@@ -55,6 +55,18 @@ The `octokit` package integrates the three main Octokit libraries
 <table>
 <tbody valign=top align=left>
 <tr><th>
+CDN
+</th><td width=100%>
+```html
+<script src="https://unpkg.com/@wohal/octokit@1.2.0/dist-web/index.js"></script>
+```
+
+```js
+const { Octokit } = window.octokit;
+const octokit = new Octokit();
+```
+</td></tr>
+<tr><th>
 Browsers
 </th><td width=100%>
 Load <code>octokit</code> directly from <a href="https://esm.sh">esm.sh</a>
